@@ -1,8 +1,10 @@
 #include <unistd.h>
+
 /**
- * main - ENtry point
- *
- * Return: Always 1 (Success)
+ * main - print exactly "and that piece of art is useful"
+ * - Dora korpar, 2012-10-19,
+ * followed by a new, to the standard error,
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

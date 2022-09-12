@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main - Determines either greater than 5, is less than 6, or is 0
- *
- * Return: Always 0 (Success)
+ * main -Entry point
+ * Description: checks on the last digits of the assigned var
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,10 +12,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 10;
+	m = n % 10;
 	if (m > 5)
 	{
-		prntf("Last digit of %d is %d and is greater than 5\n",n, m);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
 	else if (m < 6 && m != 0)
 	{
